@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
+html, body {
+    height: 80%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3498db;
+    background-size: cover;
+    height: 100%;
+    
+}
+main {
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: #ecf0f1;
+    text-shadow: 4px 3px #7f8c8d;
+}
+h1 {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+.box h2 {
+    font-family: 'Calligraffitti', cursive;
+}
+.box h3 {
+    font-family: 'Calligraffitti', cursive; 
+}
+.trigger {
+    display: inline;
+    padding: 5px 50px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ecf0f1;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+}
+.tweet {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20pox;
+    font-family: 'Open Sans', sans-serif;
+    color: #ecf0f1;
+}
